@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Main Test Suite]">
+  <test thread-count="5" verbose="2" name="TestNG Test Group(failed)">
+    <classes>
+      <class name="com.test.Test1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testPageTitleSample1"/>
+        </methods>
+      </class> <!-- com.test.Test1 -->
+      <class name="com.test.Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="testPageTitleSample2"/>
+        </methods>
+      </class> <!-- com.test.Test2 -->
+    </classes>
+  </test> <!-- TestNG Test Group(failed) -->
+</suite> <!-- Failed suite [Main Test Suite] -->
